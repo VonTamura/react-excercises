@@ -1,0 +1,51 @@
+.ia-followCard {
+  display:flex;
+  align-items: center;
+  color: #fff;
+  font-size: .8rem;
+  justify-content: space-between;
+}
+
+.ia-followCard-card {
+  display: flex;
+  align-items: center;
+  gap:4px;
+}
+
+.ia-followCard-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.ia-followCard-infoUserName{
+  opacity: 0.6;
+}
+
+.ia-followCard-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+}
+
+.ia-followCard-button{
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  border:1px solid #000;
+  transition: .3s ease background-color;
+}
+
+.ia-followCard-button:hover{
+  opacity: .8;
+}
+
+.ia-followCard-button.is-following{
+  border:1px solid #bbb;
+  background: transparent;
+  color: #fff;
+  width: 140px;
+}
+
